@@ -1,0 +1,9 @@
+---
+format: html
+---
+
+::: {.hidden}
+$$
+\newcommand{\R}{\mathbb{R}}
+$$
+:::

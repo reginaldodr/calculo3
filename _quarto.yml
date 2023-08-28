@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "calculo III"
+  author: "Reginaldo Demarque"
+  date: "27/08/2023"
+  chapters:
+    - index.qmd
+    - summary.qmd
+    - intro.qmd
+    - funcoes-vetoriais.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    lang: pt
+    include-in-header:
+         - file: macros.html
+  pdf:
+    documentclass: scrreprt
+
+editor: source
+

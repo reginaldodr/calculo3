@@ -1,0 +1,23 @@
+# Funções Vetoriais
+
+::: {#def-}
+Uma **função vetorial** é uma função cujo domínio é um conjunto de números reais e cuja imagem é um conjunto de vetores em $\mathbb{R}^n$, denotada por:
+$$\begin{array}{lcl}
+\vec{r}: & D\subset \mathbb{R} &  \longrightarrow \mathbb{R}^n\\
+         & t           & \longmapsto \vec{r}(t)=(f_1(t),f_2(t),\ldots,f_n(t)).
+\end{array}$$
+As funções $f_1,\ldots,f_n$ são chamada **funções componentes**.
+:::
+
+::: {#exm-} 
+A seguir vemos alguns exemplos de funções vetoriais.
+
+1.  $\vec{r}(t)=(t,t)$, $t\in \R$.
+2.  $\vec{r}(t)=(t,1,0)$, $t\geq 0$.
+:::
+
+::: {#def-}
+Sejam $\vec{r}(t)=(f_1(t),f_2(t),\ldots,f_n(t))$ uma função vetorial com domínio $D$. Definimos o **limite de $\vec{r}(t)$ quanto $t$ tende a $a\in D$** por 
+$$\lim\limits_{t\to a}\vec{r}(t)=\left(\lim\limits_{t\to a}f_1(t),\ldots,\lim\limits_{t\to a}f_n(t)\right), $$
+desde que o limite das funções componentes existam.
+:::
